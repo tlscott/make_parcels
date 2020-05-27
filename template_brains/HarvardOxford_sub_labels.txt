@@ -1,0 +1,21 @@
+0	Left Cerebral White Matter
+1	Left Cerebral Cortex
+2	Left Lateral Ventrical
+3	Left Thalamus
+4	Left Caudate
+5	Left Putamen
+6	Left Pallidum
+7	Brain-Stem
+8	Left Hippocampus
+9	Left Amygdala
+10	Left Accumbens
+11	Right Cerebral White Matter
+12	Right Cerebral Cortex
+13	Right Lateral Ventricle
+14	Right Thalamus
+15	Right Caudate
+16	Right Putamen
+17	Right Pallidum
+18	Right Hippocampus
+19	Right Amygdala
+20	Right Accumbens
