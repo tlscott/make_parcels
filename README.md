@@ -1,4 +1,4 @@
-# Make Parcels
+# Group-Constrained Subject-Specific (GCSS) Analysis: Make Parcels
 
 Greetings! This is my code to generate a set of parcels from a dataset of individual subject fMRI volumes. Please see the following papers for more on the method:
 
