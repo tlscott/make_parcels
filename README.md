@@ -11,13 +11,13 @@ And my paper:
 My code is based on the watershed algorithm included in this SPM toolbox developed by Alfonso Nieto-Castañon: https://www.nitrc.org/projects/spm_ss
 
 
-This code requires Freesurfer and Matlab, and if you want to make pretty pictures, python + a whole bunch of packages (numpy, nibabel, matplotlib, nilearn...). 
+This code requires Freesurfer and Matlab, and if you want to make pretty pictures, python + a whole bunch of packages (numpy, nibabel, matplotlib, nilearn...). In order to generate a report with the approximate locations of parcels, I use atlases from FSL. Found here -> https://fsl.fmrib.ox.ac.uk/fsl/fslwiki/Atlases; license here -> https://fsl.fmrib.ox.ac.uk/fsl/fslwiki/Licence
 
 
 To run: use the Make_My_Parcels.m script to call generate_parcels.m. You will need to specify the full paths to each of your subject maps in a cell array, and a set of options.
 
 
-I've included part of my data from Scott, T.L. and Perrachione, T.K. (2019) and the parcels generated using that data as an example. 
+I've included part of my data from Scott, T.L. and Perrachione, T.K. (2019) and the parcels generated using that data as an example. These are z-statistic maps of the contrast 4 syllables > 1 syllable during nonword repetition.
 
 
 I've also included a python script, plot_parcels.py, that will generate a pdf that you can see in the images directory.
