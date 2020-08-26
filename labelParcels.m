@@ -12,8 +12,7 @@ HO_cort_label = removeSpaces(HO_cort_label);
 HO_sub_label = removeSpaces(HO_sub_label);
 Cereb_label = removeSpaces(Cereb_label);
 
-peak_labels = [HO_cort_label;HO_cort_label;HO_cort_label;HO_cort_label;];
-peak_labels = peak_labels(1:length(parcel_nums));
+peak_labels = cell(length(parcel_nums),1);
 max_intersect_label = peak_labels;
 
 for i = 1:length(parcel_nums)
@@ -37,7 +36,7 @@ for i = 1:length(parcel_nums)
             if num_code ~= 0
                 peak_labels(i) = Cereb_label(num_code(i));
             else
-                peak_labels(i) = 'unidentified';
+                peak_labels(i) = {'unidentified'};
             end
         end
     end
@@ -60,7 +59,7 @@ for i = 1:length(parcel_nums)
             if max_code(i) ~= 0
                 max_intersect_label(i) = Cereb_label(max_code(i));
             else
-                max_intersect_label(i) = 'unidentified';
+                max_intersect_label(i) = {'unidentified'};
             end
         end
     end
